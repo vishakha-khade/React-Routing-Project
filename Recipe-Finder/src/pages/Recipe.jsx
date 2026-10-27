@@ -16,8 +16,7 @@ function Recipes({ favourites, onToggleFavourite }) {
       .toLowerCase()
       .includes(search.toLowerCase());
 
-    const matchesCategory =
-      category === "All" || recipe.category === category;
+    const matchesCategory = category === "All" || recipe.category === category;
 
     return matchesSearch && matchesCategory;
   });
@@ -52,9 +51,7 @@ function Recipes({ favourites, onToggleFavourite }) {
         </select>
       </div>
 
-      <p className="result-count">
-        {filteredRecipes.length} recipes found
-      </p>
+      <p className="result-count">{filteredRecipes.length} recipes found</p>
 
       {filteredRecipes.length > 0 ? (
         <div className="recipe-grid">

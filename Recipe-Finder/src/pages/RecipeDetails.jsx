@@ -4,9 +4,7 @@ import recipes from "../data/recipes";
 function RecipeDetails() {
   const { id } = useParams();
 
-  const recipe = recipes.find(
-    (item) => item.id === Number(id)
-  );
+  const recipe = recipes.find((item) => item.id === Number(id));
 
   if (!recipe) {
     return (
@@ -26,11 +24,7 @@ function RecipeDetails() {
       </Link>
 
       <div className="detail-layout">
-        <img
-          src={recipe.image}
-          alt={recipe.name}
-          className="detail-image"
-        />
+        <img src={recipe.image} alt={recipe.name} className="detail-image" />
 
         <div className="detail-content">
           <span className="eyebrow">{recipe.category}</span>

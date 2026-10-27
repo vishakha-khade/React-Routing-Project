@@ -23,18 +23,13 @@ function App() {
   });
 
   useEffect(() => {
-    localStorage.setItem(
-      "flavorly-favourites",
-      JSON.stringify(favourites)
-    );
+    localStorage.setItem("flavorly-favourites", JSON.stringify(favourites));
   }, [favourites]);
 
   function toggleFavourite(id) {
     setFavourites((previousFavourites) => {
       if (previousFavourites.includes(id)) {
-        return previousFavourites.filter(
-          (favouriteId) => favouriteId !== id
-        );
+        return previousFavourites.filter((favouriteId) => favouriteId !== id);
       }
 
       return [...previousFavourites, id];
@@ -67,10 +62,7 @@ function App() {
             }
           />
 
-          <Route
-            path="/recipes/:id"
-            element={<RecipeDetails />}
-          />
+          <Route path="/recipes/:id" element={<RecipeDetails />} />
 
           <Route
             path="/favourites"

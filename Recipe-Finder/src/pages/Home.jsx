@@ -18,8 +18,8 @@ function Home({ favourites, onToggleFavourite }) {
           </h1>
 
           <p>
-            Explore simple, delicious recipes and discover
-            something wonderful to cook today.
+            Explore simple, delicious recipes and discover something wonderful
+            to cook today.
           </p>
 
           <Link to="/recipes" className="primary-button">
