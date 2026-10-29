@@ -1,0 +1,67 @@
+# Swap Skill
+
+**Swap Skill** is a skill-sharing platform built with React.js that aims to connect people who want to share their knowledge and learn new skills from others. It provides a simple, user-friendly interface for discovering skills and exploring learning opportunities.
+
+## Features
+
+* **Home Page:** Introduction to the platform.
+* **Explore Skills:** Browse and discover different skills.
+* **Add a Skill:** Interface for sharing skills.
+* **Skill Details:** View information about individual skills.
+* **About Us:** Learn more about the platform.
+* **Contact Us:** Find contact information.
+
+## Tech Stack
+
+* **React.js** – Building reusable UI components.
+* **React Router DOM** – Navigating between pages without reloading the entire website.
+* **JavaScript (ES6+)** – Implementing interactive functionality.
+* **HTML5** – Structuring the application.
+* **CSS3** – Styling and responsive layouts.
+* **Vite** – Development server and build tool.
+
+## React Concepts Used
+
+* **Components:** Dividing the UI into reusable and manageable parts.
+* **Props:** Passing data from parent components to child components.
+* **useState Hook:** Managing component state and updating UI data.
+* **React Router:** Handling navigation between different pages.
+* **JSX:** Writing HTML-like syntax inside JavaScript.
+* **Event Handling:** Managing user interactions.
+* **Conditional Rendering:** Displaying UI elements based on conditions.
+
+## Getting Started
+
+1. Clone this repository.
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local URL displayed in your terminal.
+
+## Future Improvements
+
+This project is currently under development. Planned improvements include:
+
+* Implementing complete skill-sharing functionality.
+* Adding user authentication and profile management.
+* Connecting a backend and database to store skill information.
+* Allowing users to add, edit, and delete skills.
+* Adding search, filtering, and category-based skill discovery.
+* Enabling users to connect with others for skill exchange.
+* Improving form validation and user experience.
+
+## Learning Goals
+
+This project helps me practice React.js concepts, including components, props, hooks, state management, and routing, while improving my frontend development skills.
+
+More features and functionality will be added as the project continues to evolve.
