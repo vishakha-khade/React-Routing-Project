@@ -3,18 +3,18 @@
 ========================= */
 
 :root {
-  --cream: #F5F0E8;
-  --paper: #FFFCF5;
-  --sand: #EAE2D5;
-  --border: #DED5C5;
-  --ink: #252B24;
+  --cream: #f5f0e8;
+  --paper: #fffcf5;
+  --sand: #eae2d5;
+  --border: #ded5c5;
+  --ink: #252b24;
   --muted: #747769;
-  --teal: #164E4A;
-  --teal-dark: #103D39;
-  --terracotta: #C65D3B;
-  --terracotta-dark: #A9472C;
-  --peach: #E7A17E;
-  --sage: #D8E3D9;
+  --teal: #164e4a;
+  --teal-dark: #103d39;
+  --terracotta: #c65d3b;
+  --terracotta-dark: #a9472c;
+  --peach: #e7a17e;
+  --sage: #d8e3d9;
   --shadow: 0 12px 30px rgba(22, 78, 74, 0.08);
 }
 
@@ -168,11 +168,7 @@ nav a:hover {
   padding: 80px 8%;
   background-color: var(--teal-dark);
   background-image:
-    linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.94),
-      rgba(16, 61, 57, 0.78)
-    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.94), rgba(16, 61, 57, 0.78)),
     url("./assets/hero.jpg");
   background-size: cover;
   background-position: center;
@@ -197,7 +193,7 @@ nav a:hover {
 }
 
 .hero-content > p {
-  color: #E2E8DF;
+  color: #e2e8df;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -211,7 +207,7 @@ nav a:hover {
 
 .hero-note {
   margin-top: 22px;
-  color: #D1DDD2;
+  color: #d1ddd2;
   font-size: 13px;
 }
 
@@ -353,7 +349,9 @@ nav a:hover {
   background: var(--paper);
   border: 1px solid var(--border);
   border-radius: 16px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .feature-card:hover {
@@ -423,7 +421,7 @@ nav a:hover {
 }
 
 .home-cta > p {
-  color: #D4E0D8;
+  color: #d4e0d8;
   font-size: 15px;
 }
 
@@ -460,7 +458,9 @@ nav a:hover {
   border: 1px solid var(--border);
   border-radius: 14px;
   box-shadow: var(--shadow);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .skill-card:hover {
@@ -559,7 +559,7 @@ nav a:hover {
 .contact-form select {
   width: 100%;
   padding: 13px;
-  background: #FFFFFF;
+  background: #ffffff;
   color: var(--ink);
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -796,7 +796,7 @@ nav a:hover {
 
 .about-quote {
   padding: 45px 25px;
-  background: #F3E7DA;
+  background: #f3e7da;
   border-left: 4px solid var(--terracotta);
   border-radius: 12px;
   text-align: center;
@@ -852,7 +852,7 @@ nav a:hover {
 
 .contact-info > p,
 .contact-note p {
-  color: #D4E0D8;
+  color: #d4e0d8;
 }
 
 .contact-note {
@@ -904,7 +904,7 @@ nav a:hover {
 
 .footer-brand p {
   max-width: 340px;
-  color: #D4E0D8;
+  color: #d4e0d8;
   font-size: 15px;
 }
 
@@ -938,7 +938,7 @@ nav a:hover {
   justify-content: space-between;
   gap: 15px;
   min-height: 65px;
-  color: #D4E0D8;
+  color: #d4e0d8;
   border-top: 1px solid rgba(255, 252, 245, 0.18);
   font-size: 13px;
 }
@@ -1035,10 +1035,7 @@ nav a:hover {
     min-height: auto;
     padding: 55px 6%;
     background-image:
-      linear-gradient(
-        rgba(16, 61, 57, 0.90),
-        rgba(16, 61, 57, 0.88)
-      ),
+      linear-gradient(rgba(16, 61, 57, 0.9), rgba(16, 61, 57, 0.88)),
       url("./assets/hero.jpg");
   }
 

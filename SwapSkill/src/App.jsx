@@ -12,22 +12,22 @@ import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 
 function App() {
-return ( <BrowserRouter> <Navbar />
-
-  <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/explore" element={<ExploreSkills />} />
-    <Route path="/add-skill" element={<AddSkill />} />
-    <Route path="/skill/:id" element={<SkillDetails />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/contact" element={<Contact />} />
-    <Route path="*" element={<NotFound />} />
-  </Routes>
-
-  <Footer />
-</BrowserRouter>
-
-);
+  return (
+    <BrowserRouter>
+      {" "}
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<ExploreSkills />} />
+        <Route path="/add-skill" element={<AddSkill />} />
+        <Route path="/skill/:id" element={<SkillDetails />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
 export default App;
